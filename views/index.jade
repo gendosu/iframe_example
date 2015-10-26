@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form(method="POST", target="./")
+    input(type="text", name="url" value="")
+    input(type="submit", value="送信")
