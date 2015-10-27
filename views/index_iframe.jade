@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  a(href="/")
+    戻る
   p= url
-  iframe(src=url)
+  iframe(src=url width=1000 height=1000)
